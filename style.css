@@ -28,6 +28,10 @@ body {
     font-size: 35px;
 }
 
+.modal {
+    z-index: 99999;
+}
+
 .carousel-height {
     height: 500px;
 }
@@ -119,7 +123,6 @@ body {
 
 .motorcycle-list .custom-card {
     width: 100%;
-    z-index: 99999;
     transition: ease-in-out 200ms;
 }
 
